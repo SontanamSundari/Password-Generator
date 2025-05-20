@@ -1,0 +1,79 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #00332a);
+  color: white;
+}
+
+.container {
+  border: 3px solid #1a3d2f;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 15px 4px 15px rgba(73, 96, 92, 0.6);
+}
+
+.container h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+  height: 45px;
+  width: 500px;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.input, .row {
+  margin: 15px 0;
+}
+input[type="range"] {
+  width: 65%;
+}
+.line1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.line2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.line3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.line4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+.pass button {
+  width: 100%;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: #00b894;  
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.pass button:hover {
+  background-color: #019875; /* Darker teal on hover */
+}
